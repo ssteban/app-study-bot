@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from app.routes import user
+from app.routes import user, ai
 
 
 app = FastAPI()
@@ -22,6 +22,7 @@ def health():
     return {"status": "ok"}
 
 app.include_router(user.router, prefix="/user", tags=["user"])
+app.include_router(ai.router, prefix="/AI", tags=["AI"])
 
 
 

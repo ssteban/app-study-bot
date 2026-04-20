@@ -12,3 +12,7 @@ class user_register(BaseModel):
     contrasena: str
 
 
+class ChatRequest(BaseModel):
+    message: str
+
+
