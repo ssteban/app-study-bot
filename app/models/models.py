@@ -15,3 +15,4 @@ class user_register(BaseModel):
 class ChatRequest(BaseModel):
     message: str
 
+

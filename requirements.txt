@@ -3,9 +3,3 @@ pydantic
 uvicorn
 python-dotenv
 psycopg2-binary
-gunicorn
-bcrypt
-groq
-easyocr
-python-multipart
-langdetect
